@@ -1,0 +1,77 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ========================
+# Build outputs
+# ========================
+frontend/dist/
+frontend/build/
+*.egg-info/
+
+# ========================
+# COLMAP workspace (generated reconstruction data)
+# ========================
+colmap_workspace/
+
+# ========================
+# Large 3D model files (use Git LFS or share separately)
+# ========================
+*.glb
+*.ply
+*.obj
+*.stl
+*.fbx
+*.gltf
+
+# ========================
+# Processing temp/output data
+# ========================
+backend/temp/
+backend/uploads/
+backend/output/
+frames/
+good_frames/
+selected_frames/
+input/
+
+# ========================
+# Environment & IDE
+# ========================
+.env
+.env.local
+.env.production
+!.env.example
+.vscode/
+.idea/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Logs
+# ========================
+*.log
+npm-debug.log*
+
+# ========================
+# Lock files (optional — keep if you want reproducible builds)
+# ========================
+# package-lock.json
+# bun.lock
+
+# ========================
+# Coverage
+# ========================
+coverage/
