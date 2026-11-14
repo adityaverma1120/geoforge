@@ -66,3 +66,4 @@ with open(OUTPUT_SQL, "w", encoding="utf-8") as f:
     f.write("\n".join(sql_lines) + "\n")
 
 print(f"Successfully exported {len(rows)} job records to: {OUTPUT_SQL}")
+

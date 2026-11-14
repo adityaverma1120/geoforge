@@ -109,3 +109,4 @@ def store_model_glb(job_id: str, local_glb_path: Path) -> Optional[str]:
             logger.error(f"[{job_id}] Failed to push GLB to remote storage: {e}")
 
     return None
+
